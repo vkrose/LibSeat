@@ -18,6 +18,7 @@
 		A0A2FFDA1E553B4A00BEE41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A2FFD81E553B4A00BEE41A /* LaunchScreen.storyboard */; };
 		A0A2FFE51E553B4A00BEE41A /* LibSeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2FFE41E553B4A00BEE41A /* LibSeatTests.swift */; };
 		A0A2FFF01E553B4A00BEE41A /* LibSeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2FFEF1E553B4A00BEE41A /* LibSeatUITests.swift */; };
+		A0E9BC631E561FEF009C2691 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A0E9BC621E561FEF009C2691 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A0A2FFEB1E553B4A00BEE41A /* LibSeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibSeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A2FFEF1E553B4A00BEE41A /* LibSeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibSeatUITests.swift; sourceTree = "<group>"; };
 		A0A2FFF11E553B4A00BEE41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E9BC621E561FEF009C2691 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LibSeat/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */,
 				A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */,
 				A0A2000B1E553DBE00BEE41A /* Arvo-Regular.ttf */,
+				A0E9BC621E561FEF009C2691 /* README.md */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E9BC631E561FEF009C2691 /* README.md in Sources */,
 				A0A2FFD21E553B4A00BEE41A /* ViewController.swift in Sources */,
 				A0A2FFD01E553B4A00BEE41A /* AppDelegate.swift in Sources */,
 			);
@@ -538,6 +542,7 @@
 				A0A2FFF61E553B4A00BEE41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0A2FFF71E553B4A00BEE41A /* Build configuration list for PBXNativeTarget "LibSeatTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +551,7 @@
 				A0A2FFF91E553B4A00BEE41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0A2FFFA1E553B4A00BEE41A /* Build configuration list for PBXNativeTarget "LibSeatUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +560,7 @@
 				A0A2FFFC1E553B4A00BEE41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
