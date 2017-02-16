@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0A2000C1E553DBE00BEE41A /* Arvo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */; };
+		A0A2000D1E553DBE00BEE41A /* Arvo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */; };
+		A0A2000E1E553DBE00BEE41A /* Arvo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */; };
+		A0A2000F1E553DBE00BEE41A /* Arvo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A2000B1E553DBE00BEE41A /* Arvo-Regular.ttf */; };
 		A0A2FFD01E553B4A00BEE41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2FFCF1E553B4A00BEE41A /* AppDelegate.swift */; };
 		A0A2FFD21E553B4A00BEE41A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A2FFD11E553B4A00BEE41A /* ViewController.swift */; };
 		A0A2FFD51E553B4A00BEE41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A2FFD31E553B4A00BEE41A /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Bold.ttf"; sourceTree = "<group>"; };
+		A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Italic.ttf"; sourceTree = "<group>"; };
+		A0A2000B1E553DBE00BEE41A /* Arvo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Regular.ttf"; sourceTree = "<group>"; };
 		A0A2FFCC1E553B4A00BEE41A /* LibSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A2FFCF1E553B4A00BEE41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0A2FFD11E553B4A00BEE41A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,7 @@
 		A0A2FFC31E553B4A00BEE41A = {
 			isa = PBXGroup;
 			children = (
+				A0A2FFFD1E553CF400BEE41A /* Resources */,
 				A0A2FFCE1E553B4A00BEE41A /* LibSeat */,
 				A0A2FFE31E553B4A00BEE41A /* LibSeatTests */,
 				A0A2FFEE1E553B4A00BEE41A /* LibSeatUITests */,
@@ -123,6 +132,17 @@
 				A0A2FFF11E553B4A00BEE41A /* Info.plist */,
 			);
 			path = LibSeatUITests;
+			sourceTree = "<group>";
+		};
+		A0A2FFFD1E553CF400BEE41A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */,
+				A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */,
+				A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */,
+				A0A2000B1E553DBE00BEE41A /* Arvo-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +257,11 @@
 			files = (
 				A0A2FFDA1E553B4A00BEE41A /* LaunchScreen.storyboard in Resources */,
 				A0A2FFD71E553B4A00BEE41A /* Assets.xcassets in Resources */,
+				A0A2000E1E553DBE00BEE41A /* Arvo-Italic.ttf in Resources */,
+				A0A2000F1E553DBE00BEE41A /* Arvo-Regular.ttf in Resources */,
 				A0A2FFD51E553B4A00BEE41A /* Main.storyboard in Resources */,
+				A0A2000D1E553DBE00BEE41A /* Arvo-BoldItalic.ttf in Resources */,
+				A0A2000C1E553DBE00BEE41A /* Arvo-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
