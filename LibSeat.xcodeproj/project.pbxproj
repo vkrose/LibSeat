@@ -92,6 +92,7 @@
 				A0A2FFE31E553B4A00BEE41A /* LibSeatTests */,
 				A0A2FFEE1E553B4A00BEE41A /* LibSeatUITests */,
 				A0A2FFCD1E553B4A00BEE41A /* Products */,
+				A0E9BC621E561FEF009C2691 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +144,6 @@
 				A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */,
 				A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */,
 				A0A2000B1E553DBE00BEE41A /* Arvo-Regular.ttf */,
-				A0E9BC621E561FEF009C2691 /* README.md */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
