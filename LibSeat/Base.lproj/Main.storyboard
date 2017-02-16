@@ -26,22 +26,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-photo-24873" translatesAutoresizingMaskIntoConstraints="NO" id="TPh-oP-A3X">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-photo-24873" translatesAutoresizingMaskIntoConstraints="NO" id="9Ag-Mm-CuG">
+                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67021618150684936" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Na-8j-tss">
                                 <rect key="frame" x="39" y="447" width="297" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gj-xq-YpY">
-                                        <rect key="frame" x="59" y="1" width="178" height="61"/>
+                                        <rect key="frame" x="0.0" y="1" width="297" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
                                         <state key="normal" title="Check-In">
                                             <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20086805555555554" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="UqH-hM-xEd" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="yuh-hd-v6W"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,12 +53,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcL-wO-eFI">
-                                        <rect key="frame" x="47" y="1" width="202" height="60"/>
+                                        <rect key="frame" x="0.0" y="1" width="297" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
                                         <state key="normal" title="Find a Table">
                                             <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20086805560000001" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="qI0-OV-9Ih" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="qsr-HM-jAs"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
@@ -83,8 +88,184 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jQw-1R-cjh">
+            <objects>
+                <viewController id="UqH-hM-xEd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NFU-R3-Ubq"/>
+                        <viewControllerLayoutGuide type="bottom" id="NwY-5f-kyV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gEU-pe-Q7r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wd2-8d-Xaf">
+                                <rect key="frame" x="0.0" y="102" width="375" height="565"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J1d-tQ-awy">
+                                <rect key="frame" x="0.0" y="28" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="LibSeat" prompt="Check In" id="NSI-9b-9Pa">
+                                        <barButtonItem key="backBarButtonItem" systemItem="cancel" id="7rC-lP-CY4"/>
+                                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="WeY-KS-Luv">
+                                            <color key="tintColor" red="0.0" green="0.4039215686" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="e9o-Ed-zAs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YK7-qO-FGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-102"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kgc-vb-ZXz">
+            <objects>
+                <viewController id="qI0-OV-9Ih" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IuW-EL-N9m"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cej-VK-cEu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cCS-jv-55q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EWa-5X-ycX">
+                                <rect key="frame" x="0.0" y="28" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="LibSeat" prompt="Find a Table" id="eVG-CO-2WZ">
+                                        <barButtonItem key="backBarButtonItem" id="uby-yC-mV9"/>
+                                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="1IR-ly-2mg">
+                                            <color key="tintColor" red="0.0" green="0.4039215686" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="a9x-nq-1lI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Filter" id="i6b-T1-HWL">
+                                            <color key="tintColor" red="0.0" green="0.4039215686" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="O5J-Ij-qmQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="zSE-9P-nay"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JSV-VO-JVb">
+                                <rect key="frame" x="0.0" y="102" width="375" height="565"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Map_web_01-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="ILw-g0-V4f">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="557"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="WTZ-Bt-qoS">
+                                        <rect key="frame" x="97" y="511" width="180" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KB1-zP-Cfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.79999999999995" y="729.98500749625191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EVC-mf-HjO">
+            <objects>
+                <viewController id="O5J-Ij-qmQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DiB-Oq-Ny6"/>
+                        <viewControllerLayoutGuide type="bottom" id="aNV-jo-uTQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kvQ-TE-rWv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fp4-sN-Wvs">
+                                <rect key="frame" x="0.0" y="28" width="375" height="74"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="24"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="LibSeat" prompt="Find a Table" id="AC2-yH-uFf">
+                                        <barButtonItem key="backBarButtonItem" title="Back" id="2wv-xt-y89"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" style="done" id="Zj2-YU-zNR">
+                                            <color key="tintColor" red="0.0" green="0.4039215686" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="qI0-OV-9Ih" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="zwp-AH-jmJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which Floor?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vi-yl-91Q">
+                                <rect key="frame" x="18" y="119" width="262" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many people?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-A1-Fcj">
+                                <rect key="frame" x="18" y="286" width="291" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFQ-g3-QkQ">
+                                <rect key="frame" x="98" y="568" width="178" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arvo" family="Arvo" pointSize="22"/>
+                                <state key="normal" title="Find Me a Table!">
+                                    <color key="titleColor" red="0.0" green="0.4039215686" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1J8-Ry-Ewb">
+                                <rect key="frame" x="46" y="347" width="283" height="138"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Nh-FI-D7H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1773.5999999999999" y="729.98500749625191"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Map_web_01-03.png" width="1440" height="1728"/>
         <image name="pexels-photo-24873" width="3464" height="2309"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="zwp-AH-jmJ"/>
+        <segue reference="e9o-Ed-zAs"/>
+    </inferredMetricsTieBreakers>
 </document>
