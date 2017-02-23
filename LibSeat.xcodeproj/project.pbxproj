@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B48657D1E5E732800692379 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48657C1E5E732800692379 /* FilterViewController.swift */; };
 		A0A2000C1E553DBE00BEE41A /* Arvo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */; };
 		A0A2000D1E553DBE00BEE41A /* Arvo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */; };
 		A0A2000E1E553DBE00BEE41A /* Arvo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B48657C1E5E732800692379 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		A0A200081E553DBE00BEE41A /* Arvo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Bold.ttf"; sourceTree = "<group>"; };
 		A0A200091E553DBE00BEE41A /* Arvo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-BoldItalic.ttf"; sourceTree = "<group>"; };
 		A0A2000A1E553DBE00BEE41A /* Arvo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Italic.ttf"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				A0A2FFCF1E553B4A00BEE41A /* AppDelegate.swift */,
 				A0A2FFD11E553B4A00BEE41A /* ViewController.swift */,
+				3B48657C1E5E732800692379 /* FilterViewController.swift */,
 				A0A2FFD31E553B4A00BEE41A /* Main.storyboard */,
 				A0A2FFD61E553B4A00BEE41A /* Assets.xcassets */,
 				A0A2FFD81E553B4A00BEE41A /* LaunchScreen.storyboard */,
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E9BC631E561FEF009C2691 /* README.md in Sources */,
+				3B48657D1E5E732800692379 /* FilterViewController.swift in Sources */,
 				A0A2FFD21E553B4A00BEE41A /* ViewController.swift in Sources */,
 				A0A2FFD01E553B4A00BEE41A /* AppDelegate.swift in Sources */,
 			);

@@ -216,10 +216,10 @@
             </objects>
             <point key="canvasLocation" x="944.79999999999995" y="729.98500749625191"/>
         </scene>
-        <!--View Controller-->
+        <!--Filter View Controller-->
         <scene sceneID="EVC-mf-HjO">
             <objects>
-                <viewController id="O5J-Ij-qmQ" sceneMemberID="viewController">
+                <viewController id="O5J-Ij-qmQ" customClass="FilterViewController" customModule="LibSeat" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DiB-Oq-Ny6"/>
                         <viewControllerLayoutGuide type="bottom" id="aNV-jo-uTQ"/>
@@ -276,6 +276,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Spinner" destination="1J8-Ry-Ewb" id="hXy-Vg-WYj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Nh-FI-D7H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
